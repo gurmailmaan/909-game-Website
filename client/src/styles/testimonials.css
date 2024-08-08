@@ -1,0 +1,25 @@
+.slick-list{
+    width:100%;
+    margin: 0 auto;
+    text-align: -webkit-center;
+}
+.reviews{
+    margin: 0 auto;
+    text-align: center;
+}
+.reviews img{
+    height:10rem;
+    border-radius: 100rem;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    width: 12rem;
+}
+.reviews p{
+    font-family: Lato,sans-serif;
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+.reviews h3{
+    font-size: 35.16px;
+    font-family: Lato,sans-serif;
+}

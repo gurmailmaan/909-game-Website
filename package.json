@@ -1,0 +1,26 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "Capstone project for web development\r ## Team Members\r ### Neeraj Kumar\r ### Harshita Harshita\r ### Jaskaran Preet Singh\r ## Useful Links\r [Github Documentation](https://docs.github.com/en)\r [Github Support](https://support.github.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeerajK2001/capstone-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeerajK2001/capstone-project/issues"
+  },
+  "homepage": "https://github.com/NeerajK2001/capstone-project#readme",
+  "keywords": [],
+  "dependencies": {
+    "photoswipe": "^5.3.7",
+    "react-image-viewer-dv": "^1.0.2",
+    "react-images": "^1.2.0-beta.7",
+    "react-photoswipe-gallery": "^2.2.6"
+  }
+}

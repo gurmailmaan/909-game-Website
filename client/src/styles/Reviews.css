@@ -1,0 +1,15 @@
+.review-box img{
+    border-radius: 70px;
+}
+
+.review-box {
+    box-shadow: #959da533 0px 8px 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 7px ;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+}
+@media only screen and (max-width: 600px) {
+    .reviews-box{
+        grid-template-columns: repeat(auto-fill, 100%) !important;
+    }
+  }
+

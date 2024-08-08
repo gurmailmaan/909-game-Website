@@ -1,0 +1,109 @@
+.fa-maxwidth{
+    background-color: #041E42;
+    width:100%;
+}
+.footer{
+
+    background-color:  #041E42;
+    padding: 5rem 2rem 2rem 2rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.copyright{
+    margin:0 auto;
+    display: block;
+    color:#fff;
+    margin-top: 6rem;
+    font-size: 1rem;
+}
+.fa-sec-1,
+.fa-nav,
+.fa-sec-3{
+    width:30%;
+}
+.fa-sec-1 img{
+    height:5rem;
+}
+.fa-sec-1 button{
+    background-color: #fff;
+    color:#000;
+    border:0;
+    width:12rem;
+    padding:.7rem;
+    border-radius: 2px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: .2s ease-in-out 0s;
+}
+.fa-sec-1 button:hover{
+    transform: scale(1.1);
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    padding-top: .5rem;
+}
+.fa-nav a:hover{
+    color:#EA5A0B;
+}
+.fa-sec-3{
+    color:white;
+}
+.fa-sec-3 p{
+    margin: 0;
+}
+.social{
+    margin-bottom: 2rem;
+}
+.social a{
+    margin:1rem .5rem;
+}
+.social svg:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    
+.fa-sec-1,
+.fa-nav,
+.fa-sec-3{
+    width:100%;
+}
+.fa-sec-1 button{
+    position: relative;
+    top:19.5rem;
+    display: block;
+    margin: 0 auto;;
+}
+.fa-nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:80%;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+}
+.fa-nav a{
+    display: inline;
+}
+.social a{
+    margin:0 1rem;
+}
+.copyright{
+    margin-top: 8rem;
+}
+}

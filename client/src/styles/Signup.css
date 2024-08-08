@@ -1,0 +1,122 @@
+.sign-up{
+    display: flex;
+    flex-wrap: wrap;
+    /* height:90vh; */
+}
+.part-1{
+    width:45%;
+    background-image: url('../components/img/board-1.jpg');
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.login-box{
+    background-image: url('../components/img/board-3.webp');
+    
+}
+
+.part1-overlay{
+    background-color: rgb(39, 44, 72, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.part-1 h2{
+    font-size: 3rem;
+    padding-top: 20%;
+    letter-spacing: 6px;
+    color:rgba(255, 255, 255, 0.6);
+}.part-1 p{
+    letter-spacing: 2.5px;
+    color:rgba(255, 255, 255, 0.7);
+}
+.part-2{
+    width:55%;
+    text-align: center;
+}
+.part-2 h3{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+.form{
+    /* padding-top: 2rem; */
+    max-width: 650px;
+    margin: 0 auto;
+}
+.form input{
+    height:2rem;
+    font-size: 16px;
+    display:block;
+    margin:0 auto;
+    margin-top: .5rem;
+    width:65%;
+    /* border:1px solid rgb(0, 0, 0, 0.3); */
+    text-align: center;
+}
+.form input:nth-child(5){
+    background-color: #BC4123;  
+    width: 66%;
+    box-sizing: content-box;
+    padding: 0;
+    cursor: pointer;
+    color:#fff;
+}
+.form button{ 
+    background-color: #D1683B; 
+    height:45.5px;
+    width: 65%;
+    color:#fff;
+    margin-top: .5rem;
+    font-size: 16px;
+    border-radius: 5px;
+    border:unset;
+}
+
+
+.form input:nth-child(5):hover,
+.form button:hover{
+    background-color: #BC4123;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+.form p:last-child{
+    margin-top: 4rem;
+}
+.form p{
+    font-size: 14px;
+}
+.form p a{
+    color: blue;
+}
+
+@media (max-width:768px) {
+    .login,
+    .sign-up{
+        display:block;padding-bottom: 1rem;
+    }
+    .part-1{
+        width:100vw;
+        height:20rem;
+        background-image: url('../components/img/mobile/board-1.webp');
+    }
+    .part-1 h2{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .part-2{
+        margin: 0 auto;
+    }
+    .part-2 input{
+        width:100%;
+    }
+    .part-2 button{
+        width:100%;
+        padding: unset;
+    }
+    .login-box{
+        background-image: url('../components/img/mobile/board-3.webp');
+    }
+}

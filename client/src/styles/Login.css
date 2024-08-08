@@ -1,0 +1,112 @@
+.login,
+.sign-up{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    min-height:60vh;
+}
+.part-1{
+    width:45%;
+    background-image: url('../components/img/img1.jpg');
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.part1-overlay{
+    background-color: rgb(39, 44, 72, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.part-1 h2{
+    font-size: 3rem;
+    padding-top: 20%;
+    letter-spacing: 6px;
+    color:rgba(255, 255, 255, 0.6);
+}.part-1 p{
+    letter-spacing: 2.5px;
+    color:rgba(255, 255, 255, 0.7);
+}
+.part-2{
+    width:55%;
+    text-align: center;
+}
+.part-2 h3{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+.form{
+    padding-top: 2rem;
+    max-width: 650px;
+    margin: 0 auto;
+}
+input{
+    height:2rem;
+    font-size: 16px;
+    display:block;
+    margin:0 auto;
+    margin-top: .5rem;
+    width:65%;
+    border:1px solid rgb(0, 0, 0, 0.3);
+    text-align: center;
+}
+input:nth-child(5){
+    background-color: #BC4123;  
+    width: 66%;
+    box-sizing: content-box;
+    padding: 0;
+    cursor: pointer;
+    color:#fff;
+}
+.form button,
+.btn-primary{ 
+    background-color: #BC4123; 
+    height:35.5px;
+    width: 65%;
+    color:#fff;
+    border:1px solid rgb(0, 0, 0, 0.3);
+    margin-top: .5rem;
+    font-size: 16px;
+}
+input:nth-child(5):hover,
+.form button:hover{
+    background-color: #de6e52;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+.form p:last-child{
+    margin-top: 4rem;
+}
+.form p{
+    font-size: 14px;
+}
+.form p a{
+    color: blue;
+}
+
+
+@media (max-width:768px) {
+    .login,
+    .sign-up{
+        display:block;padding-bottom: 1rem;
+    }
+    .part-1{
+        width:100vw;
+        height:12rem;
+    }
+    .part-1 h2{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .part-2{
+        margin: 0 auto;
+    }
+    .part-2 input{
+        width:100%;
+    }
+    .part-2 button{
+        width:100%
+    }
+}

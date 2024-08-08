@@ -1,0 +1,25 @@
+
+
+.comment-input input,
+.comment-input select{
+    padding: 1rem 1rem 1rem 0.2rem;
+    font-size: 18px;
+}
+
+.btn-submit{
+    margin: unset;
+}
+
+@media only screen and (max-width: 600px) {
+    .comment-box{
+        flex-direction: column;
+    }
+
+    .comment-input{
+        width: 100% !important;
+    }
+
+    .comment-input input{
+        width: 100%;
+    }
+  }

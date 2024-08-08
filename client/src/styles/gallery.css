@@ -1,0 +1,85 @@
+.gallery-box{
+    margin: 0 auto;
+}
+.gallery h1{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:#EA5A0B;
+    text-align: center;
+    margin:3rem 0;
+}
+.image-ul img{
+    border-radius: 3px;
+}
+.image-ul{
+    column-count: 4;
+}
+.image-ul{
+    padding:1rem;
+    margin: 6rem 0 3rem 0;
+}
+.image-ul img{
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image-ul img:hover{
+	-webkit-transform: scale(.9);
+	transform: scale(.9);
+    cursor: pointer;
+}
+.gallery-box{
+    margin: 0 auto;
+}
+.gallery h1{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:#EA5A0B;
+    text-align: center;
+    margin:3rem 0;
+}
+.image-ul img{
+    border-radius: 3px;
+}
+.image-ul{
+    column-count: 4;
+}
+.image-ul{
+    padding:1rem;
+    margin: 6rem 0 3rem 0;
+}
+.image-ul img{
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image-ul img:hover{
+	-webkit-transform: scale(.9);
+	transform: scale(.9);
+    cursor: pointer;
+}
+.button-box button{
+    background-color: #EA5A0B;
+    color:#fff;
+    padding:.3rem 1rem;
+    margin-bottom: 4rem;
+    font-size: 14px;
+}
+.button-box button:hover{
+    background-color: #e97638;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:768px) {
+    .image-ul{
+        column-count: 3;
+    }
+}
+@media (max-width:450px) {
+    .image-ul{
+        column-count: 2;
+    }
+}

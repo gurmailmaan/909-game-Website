@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400 ;
+}
+
+
+p{
+  font-size: 18px ;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300 ;
+}
+
+a, button{
+  font-size: 16px;
+}
+
+.app{
+  margin: auto;
+}
+
+.web-max,
+.tostify,
+.MuiBox-root,
+.footer,
+.home-box,
+.css-1ewaou6 {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+

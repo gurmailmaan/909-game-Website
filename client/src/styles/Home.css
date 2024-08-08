@@ -1,0 +1,339 @@
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  .video{
+    height:90vh;
+    z-index: -2;
+    z-index: -2;
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    width: 100%;
+    top:45%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 1600px;
+  }
+  .overlay{
+    height:90vh;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    position: absolute;
+    /* object-fit: cover; */
+    left: 0;
+    top:45%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 1600px;
+  }
+  .section-1{
+    height: 90vh;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    text-align: center;
+  }
+.section-1 h2{
+    color:#fff;
+    font-size: 4.8rem;
+    letter-spacing: -5px;
+    line-height: .9  ;
+    margin-top: 0;
+    padding-top: 12rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.section-1 span{
+    color:#EA5A0B;
+}
+.section-1 a{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    height:2.3rem;
+    width:7.5rem;
+    color:#fff;
+    cursor:pointer;
+    margin-top: 1rem;
+    font-family: 'Lato', sans-serif;
+    transition: .2s ease-in-out 0s;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+
+}
+
+.section-1 a:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.section-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 2rem 100px 2rem;
+}
+.sec2-box1{
+    width:50%;
+}
+.sec2-box2{
+    width:50%;
+}
+.sec2-box2 img{
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.sec2-box1 h2{
+    font-size: 43.95px;
+    color:#EA5A0B;
+    margin-bottom: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.sec2-box1 p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.sec2-box1 a{
+    background-color: #19211C;
+    padding: 8px 3.5rem;
+    color:white;
+    cursor:pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    border: 0px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.sec2-box1 a:hover{
+    background-color: #245d3a;
+}
+
+
+
+.section-3{
+    height:80vh;
+    background-color: #000000;
+    background: url('../components/img/board-1.jpg') repeat fixed 100%;
+    text-align: center;
+    background-size: cover;
+}
+.section-3 div{
+    height:80vh;
+    background-color: #00000046;
+}
+.section-3 h2{
+    color:#fff;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 2rem;
+}
+
+
+
+.section-4{
+    background: url('../components/img/focused-puck.webp') no-repeat  100%;
+    background-color: #000;
+    background-size: cover;
+    height:80vh;
+}
+.about{
+    min-height:40vh;
+    max-height: 60vh;
+    background-color: #ffffff;
+    min-width: 375px;
+    width: 30%;
+    margin-left:50%;
+    padding:4rem 3rem;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.about h2{
+    font-size: 43.95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:#19211C; 
+    position: absolute;
+    top:-2rem;
+    left: -4rem;
+}
+.about span{
+    color:#fff;
+}
+.about p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    /* margin-top: 4rem; */
+    max-height: 33vh;
+    overflow: hidden;
+}
+.about a{
+    position: absolute;
+    bottom:-10px;
+    right:40px;
+    background-color: #EA5A0B;
+    /* height:2.3rem;
+    width:7.5rem; */
+    color:white;
+    cursor:pointer;
+    font-family: 'Lato', sans-serif;
+    transition: .2s ease-in-out 0s;
+    border: 0;
+    text-decoration: none;
+    padding: 0.5rem 0.8rem;
+}
+.about a:hover{
+    /* transition: ease-in-out .15s; */
+    transform: scale(1.1);
+}
+
+.section-5{
+    padding:0 20px 5rem 20px;
+}
+.section-5 h2:nth-child(1){
+    color: #eb6d29;
+    font-size: 43.95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+@media (max-width: 768px){
+    .app h3,
+    .section-5 h3:nth-child(1){
+        font-size: 35px;
+    }
+    nav{
+        height:40px;
+    }
+    .video,
+    .overlay{
+        height:80vh;
+        top:45%;
+    }
+    .section-1 h2{
+        font-size: 3.5rem;
+        padding-top: 9rem;
+    }
+    .section-2{
+        float: none;
+        text-align: center;
+        position: relative;
+        padding: 3rem 2rem;
+    }
+    .sec2-box2{
+        width:100%;
+        order:1;
+    }
+    .sec2-box2 img{
+        width:60%;
+        margin: 0 auto;
+        display: none;
+    }
+    .sec2-box1{
+        width:100%;
+        order:2;
+    }
+    .section-3{
+    height:100vh;
+    background: url('../components/img/mobile/board-1.webp') repeat fixed 100%;
+    }
+    .section-3 div{
+        height:100vh;
+    }
+    .section-3 span{
+        display: block;
+    }
+    .section-3 h2{
+        line-height: .8;
+        letter-spacing: 3px;
+        top:40%;
+    }
+    .about{
+        position: static;
+        margin: 0;
+        margin-bottom: 5rem;
+        width:fit-content;    
+        bottom: 0;
+        border: 0;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        text-align: center
+    }
+    .about a{
+        position: relative;
+        margin: 0 auto;
+        right:0;
+        background-color:#000;
+    }
+    .about a{
+        position: relative;
+        margin: 0 auto;
+        right:0;
+        background-color:#000;
+    }
+    .about h2{
+        position: relative;
+        margin: 0;
+        right: auto;
+        left: auto;
+    }
+    .about span{
+        color:#000;
+    }
+    .about p{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .about button{
+        position: relative;
+        left:auto;
+        right:auto;
+        top:2rem
+    }
+    .section-4{
+        background-image: none;
+        background-color: #fff;
+        height: fit-content;
+    }
+    .about{
+        padding:6rem 2rem;
+    }
+    .section-6{
+        background-image: url('../components/img/mobile/focused-puck.webp');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 60vw;
+        max-height: 550px;
+    }
+}

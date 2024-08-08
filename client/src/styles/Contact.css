@@ -1,0 +1,114 @@
+.contact-bg{
+    /* background-image: url('../img/wallpaperflare.com_wallpaper.webp'); */
+    background-image: url('../components/img/wallpaperflare.com_wallpaper.webp');
+    background-size: cover;
+}
+.contact-overlay{
+    background-color: rgb(255, 255, 255, 0.1);
+    height:100%;
+}
+.contact-sec1{
+    text-align: center;
+    color:white;
+}
+.contact-sec1 h1{
+    font-size: 3rem;
+    padding: 4rem 0 2rem 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+p{
+    margin-top: .5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+p span{
+    font-weight: 400;
+}
+.contact-sec2{
+    /* padding: 4rem 8rem 8rem 8rem; */
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    width:70%;
+    margin: 0 auto;
+    max-width: 750px;
+}
+.flex-form{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.field-box1,
+.field-box2{
+    width:50%;
+}
+.field{
+    margin-top: 1rem;
+    position: relative;
+}
+.field input,
+.field textarea{
+    width:100%;
+    max-width: 270px;
+    height:45px;
+    border-radius: 3px;
+    border:0px;
+    text-align: left;
+    padding: 1rem;
+    padding-left: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.field textarea{
+    min-height: 168px;
+}
+.error{
+    color:rgb(255, 95, 95);
+    position: absolute;
+    font-size: 13px;
+    bottom:-1rem;
+    left:1rem;
+}
+#message{
+    height:20vh;
+    top: 0;
+}
+.btn{
+    border: 0;
+    background-color: #BC4123;
+    color:#fff;
+    padding:.8rem 6rem;
+    margin: 0 auto;
+    display:block;
+    margin-top: 3rem;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-primary{
+    margin-top: 1rem;
+}
+.btn:hover{
+    background-color: #de5735;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .flex-form{
+        display:block;
+        flex-wrap: nowrap;
+    }
+    .field-box1,
+    .field-box2{
+        width:90%;
+        margin: 0 auto;
+    }
+    .field-box2{
+        margin-top: 2rem;
+    }
+    .field input{
+        margin-top: 1rem;
+    }.contact-bg{
+        background-image: url('../components/img/mobile/wallpaperflare.com_wallpaper.webp');
+    }
+}

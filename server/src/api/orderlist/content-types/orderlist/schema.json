@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orderlists",
+  "info": {
+    "singularName": "orderlist",
+    "pluralName": "orderlists",
+    "displayName": "orderlist"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "quantity": {
+      "type": "json"
+    }
+  }
+}

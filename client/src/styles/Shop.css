@@ -1,0 +1,67 @@
+.shop-banner{
+    height: 500px;
+    background: url('../components/img/pucks.webp') repeat center center/cover;
+    /* margin-top: 40px ; */
+    margin-bottom: 60px;
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.shop-banner::before{
+    
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.shop-banner h2{
+    color:#fff;
+    font-size: 3.6rem;
+    letter-spacing: -5px;
+    line-height: .9  ;
+    margin-top: 0;
+    padding-top: 13rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    height: 500px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 50%;
+
+}
+.shop-banner span{
+    color:#EA5A0B;
+}
+
+.leaf-icon svg{
+    color: green;
+}
+
+.link-reviews a{
+    text-decoration: none;
+    color: black;
+}
+
+.link-reviews a:hover{
+    text-decoration:underline;
+    color: #EA5A0B;
+}
+
+@media only screen and (max-width: 600px) {
+    .shop-button{
+        flex-direction: column;
+    }
+    
+    .shop-button button{
+        width: 100%;
+    }
+
+    .shop-banner h2{
+        
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 7rem 0.5rem;
+    
+    }
+
+
+}
+
